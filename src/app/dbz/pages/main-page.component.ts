@@ -21,8 +21,8 @@ export class MainPageComponent {
 
   onNewCharacter(character: Character): void
   {
-    console.log('MainPage');
-    console.log(character);
+    this.characters.unshift(character); //Lo inserta al principio
+    //this.characters.push(character);
   }
 
 }
