@@ -19,7 +19,6 @@ export class AddCharacterComponent {
 
   emitCharacter(): void {
 
-    debugger;
 
     if( this.character.name.length == 0 ) return;
 
